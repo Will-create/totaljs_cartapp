@@ -1,0 +1,107 @@
+{
+	"routes": [
+		{
+			"id": "cart_query",
+			"method": "API",
+			"url": "/api/",
+			"error": "Action not found",
+			"owner": "controller_api"
+		},
+		{
+			"id": "cart_read",
+			"method": "API",
+			"url": "/api/",
+			"owner": "controller_api",
+			"input": "*id:string"
+		},
+		{
+			"id": "cart_insert",
+			"method": "API",
+			"url": "/api/",
+			"owner": "controller_api",
+			"input": "*items:[{*id:String,*price:Number,*total:Number,*count:Number,date:Date}]"
+		},
+		{
+			"id": "cart_update",
+			"method": "API",
+			"url": "/api/",
+			"owner": "controller_api",
+			"input": "*id:string, *amount:number"
+		},
+		{
+			"id": "cart_remove",
+			"method": "API",
+			"url": "/api/",
+			"owner": "controller_api",
+			"input": "*id:string"
+		},
+		{
+			"id": "cart_query",
+			"method": "API",
+			"url": "/@api/",
+			"error": "Action not found",
+			"owner": "controller_api"
+		},
+		{
+			"id": "cart_read",
+			"method": "API",
+			"url": "/@api/",
+			"owner": "controller_api",
+			"input": "*id:string"
+		},
+		{
+			"id": "cart_insert",
+			"method": "API",
+			"url": "/@api/",
+			"owner": "controller_api",
+			"input": "*items:[{*id:String,*price:Number,*total:Number,*count:Number,date:Date}]"
+		},
+		{
+			"id": "cart_update",
+			"method": "API",
+			"url": "/@api/",
+			"owner": "controller_api",
+			"input": "*id:string, *amount:number"
+		},
+		{
+			"id": "cart_remove",
+			"method": "API",
+			"url": "/@api/",
+			"owner": "controller_api",
+			"input": "*id:string"
+		},
+		{
+			"method": "POST",
+			"url": "/api/",
+			"owner": "controller_api"
+		},
+		{
+			"method": "GET",
+			"url": "/*",
+			"owner": "controller_default"
+		},
+		{
+			"method": "SOCKET",
+			"url": "/",
+			"owner": "controller_api"
+		}
+	],
+	"actions": [
+		{
+			"name": "Cart --> read",
+			"input": "*id:string"
+		},
+		{
+			"name": "Cart --> insert",
+			"input": "*items:[{*id:String,*price:Number,*total:Number,*count:Number,date:Date}]"
+		},
+		{
+			"name": "Cart --> update",
+			"input": "*id:string, *amount:number"
+		},
+		{
+			"name": "Cart --> remove",
+			"input": "*id:string"
+		}
+	]
+}

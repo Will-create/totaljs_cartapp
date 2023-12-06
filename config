@@ -1,0 +1,6 @@
+name                         : Eshopcart
+cart_cookie     (generate)   : 10
+discount                     : 10
+table_YOURNAME               : id:uid,name:string,price:number,dtcreated:date
+table_cart                   : id:uid,name:string,items:object,price:number,total:number,count:number,dtcreated:date
+table_products               : id:uid,name:string,desc:string,price:number,total:number,count:number,date:date

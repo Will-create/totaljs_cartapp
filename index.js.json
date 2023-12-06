@@ -1,0 +1,49 @@
+{
+	"pid": 31001,
+	"date": "2023-11-24T05:53:40.888Z",
+	"port": 8000,
+	"ip": "0.0.0.0",
+	"stats": [
+		{
+			"id": null,
+			"version": {
+				"node": "v20.8.0",
+				"total": "4",
+				"build": 4091,
+				"app": "1.0.0"
+			},
+			"pid": 31001,
+			"thread": "",
+			"mode": "debug",
+			"overload": 39,
+			"date": "2023-12-02T09:14:16.755Z",
+			"memory": 26.87,
+			"rm": 0,
+			"fm": 0,
+			"wm": 0,
+			"em": 0,
+			"mm": 0,
+			"om": 0,
+			"dm": 0,
+			"um": 0,
+			"pm": 0,
+			"sm": 0,
+			"cm": 0,
+			"dbrm": 0,
+			"dbwm": 0,
+			"usage": 0,
+			"requests": 1,
+			"pending": 0,
+			"external": 0,
+			"errors": 3,
+			"timeouts": 1,
+			"online": 0,
+			"uptime": 8357,
+			"download": 0,
+			"upload": 0,
+			"lasterror": "2023-11-24T23:42:24.565Z ReferenceError: pornhub is not defined\n    at Controller.home (/Users/mac/Desktop/cartapp/controllers/default.js:13:16)\n    at PROTO.$total_execute2 (/Users/mac/Desktop/cartapp/node_modules/total4/index.js:17688:31)\n    at PROTO.$total_execute (/Users/mac/Desktop/cartapp/node_modules/total4/index.js:17653:10)\n    at PROTO.$total_authorize (/Users/mac/Desktop/cartapp/node_modules/total4/index.js:17786:9)\n    at AuthOptions.req_authorizetotal [as $callback] (/Users/mac/Desktop/cartapp/node_modules/total4/index.js:17212:6)\n    at AuthOptionsProto.next.AuthOptionsProto.callback (/Users/mac/Desktop/cartapp/node_modules/total4/builders.js:6301:7)\n    at AuthOptionsProto.success (/Users/mac/Desktop/cartapp/node_modules/total4/builders.js:6265:7)\n    at /Users/mac/Desktop/cartapp/definitions/auth.js:11:7\n    at Object.onAuthorize (/Users/mac/Desktop/cartapp/node_modules/total4/builders.js:6306:3)\n    at PROTO.$total_prepare (/Users/mac/Desktop/cartapp/node_modules/total4/index.js:17974:8)",
+			"lasttimeout": "2023-11-24T23:42:30.821Z /",
+			"status": []
+		}
+	]
+}
